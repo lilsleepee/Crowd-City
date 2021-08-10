@@ -18,7 +18,7 @@ public class WinMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator CoinAmountTextAnimation()

@@ -61,7 +61,7 @@ public class Leader : MonoBehaviour
         }
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         if (gameObject.tag == playerTag)
         {
